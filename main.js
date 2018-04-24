@@ -21,7 +21,8 @@ function main()
     var material = new THREE.MeshBasicMaterial( { color: 0xffffff } );
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
-
+    
+   
     loop();
 
     function loop()
